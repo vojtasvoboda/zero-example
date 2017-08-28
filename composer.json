@@ -15,6 +15,7 @@
     ],
     "require": {
         "php": ">=7.1",
+        "illuminate/database": "^5.4",
         "nunomaduro/zero-framework": "~3.3"
     },
     "require-dev": {

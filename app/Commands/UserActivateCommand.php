@@ -9,11 +9,11 @@ use Illuminate\Database\Capsule\Manager as DB;
 class UserActivateCommand extends AbstractCommand
 {
     /**
-     * The name of the command.
+     * The name and signature of the console command.
      *
      * @var string
      */
-    protected $name = 'user:activate {user}';
+    protected $signature = 'user:activate {user}';
 
     /**
      * The description of the command.

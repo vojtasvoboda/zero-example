@@ -40,6 +40,7 @@ return [
          */
         'commands' => [
             App\Commands\DatabaseMigrateCommand::class,
+            App\Commands\UserActivateCommand::class,
         ],
 
         /*
